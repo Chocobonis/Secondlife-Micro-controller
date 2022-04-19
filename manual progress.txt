@@ -1,0 +1,65 @@
+***********************************
+* BONIRIX ELECTRONICS PROGRAMMING *
+***********************************
+     << By: BoniiKwiiDz ~ >>
+
+INTRODUCTION:
+* Day by day we use many machines, that require more than just a simple button to control them, these complex machines, might be using a Micro controller, as these tiny devices, have proved to be one of the most essential things when it comes to machine creation, to the point these can be seen on factories, or even cars! But how would it be to get a virtual version of a micro-controller, well, that's what Bonirix Electronics it's aiming to get, provided inside Second-Life, Bonirix Electronics, is aiming to provide a Robotics Kit, inside SL, on this book, we will be able to find, how are Micro-controllers relevant on our life, and how do Bonirix Micro-controller work, going from what does it have, to how to use it.
+
+CHAPTER 1 {FUNDAMENTALS}:
+
+What is a Micro-controller:
+---------------------------------------------------
+* A micro-controller, it's a circuit which has many components that make it possible to program, this code gets recorded on it's memory and it's composed by different functional blocks which are similar to the ones of a computer, the processing, memory, and input/output
+* micro-controllers are designed to reduce economical costs of energy and elaboration of machines, but that causes them to have a reduced size which also causes a small size of memory and also the devices connected must be related, as their capacity is limited by their size.
+* Micro controllers are also called Computer-on-Chip or single-chip-computer. since Micro controllers are supporting and often embedded in device controls.
+
+History:
+-----------------------------------------------------
+* Micro-controllers started as just a micro-processor which only function of memory was RAM or ROM, and also they required a specific type od programming specialized and hardware to delete the code which made it necessary to disassemble stooping software development making harder to manage.
+* The first micro controllers were born near to 1970, in which on of the first single-chip controllers was the intel 4004 that was released on 1971. which had only 4 bits and then was replaced by intel 8008 which was better, most of the micro controllers of those years had a memory type EPROM (Erasable Programmable Read-Only Memory) that could be reprogrammed and where more expensive than PROM which could be used only once, and EPROM required UV LIGHT (which can be found on the sun) to erase their memory.
+
+Uses of Micro controllers:
+-----------------------------------------------------
+* This devices had shown their relevance into anyone's life as time passes, which has made the field of electronics, more interesting, and helped turning houses into smart homes, we can Actually say that Micro-controllers are some sort of small brain or small computer, that helps on controlling devices
+* Some of the uses that these devices have been given it's inside the industry, where they are made to complete specified actions, as an example we can find car factories, where they program the arms in order to keep building cars.
+
+Arduino:
+---------------------------------------------------------
+* The arduino it's one of the most popular Micro-controllers, and contains a vast amount of different parts, inside a single circuit board, and some of these components are:
+* A number of pines which are used to connect with various components providing different Analog and Digital I/O pins.
+* A power connector, which provides power to the device itself and a low voltage that can be used for components like LEDS and different sensors, providing safety.
+* A variety of small components like an oscillator and voltage regulator which provide stability into the board
+
+Analog & Digital
+------------------------------------------------------------
+* Analog: analog values can be represented with the ~ sign, these are often values between 0 and 255, which means they make smooth curves when doing graphics, these are relevant into different types of components, as an example we might find, the Motors, these might receive an analog value which can represent the speed as an example, when working with servo, inside arduino we may control these by using:
+[analogWrite(PIN, 24);]
+* Digital: digital values might be represented with a more "square" graph this because, digital values can only be 1 or 0 which it's representing yes and no, on/off, -_-_-_ these can be used on devices which need only these 2 states as an example a LED which can be turned on or turned off, on arduino we often use:
+[digitalWrite(PIN, HIGH);]
+
+CHAPTER 2 {THE BONIRIX PROJECT}:
+
+What is Bonirix Project:
+--------------------------------------------------------------
+* Bonirix project, it's an idea to replicate and simulate the full functionalities of an Arduino inside Second-Life, implementing it's own programming language and giving the user the possibility to start developing their own machines. 
+* The original idea was born as some sort of simulation of Robotics, to give the user the possibility to create their own robotics, and automatic cars, as well as home automation.
+* The actual version of BONIRIX Micro Controller, has:
+   - 100 Analog Input ports
+   - 100 Digital input ports
+   - Endless Analog Output ports
+   - Endless Digital Output ports
+   - Assembler-like language
+
+CHAPTER 3 {UNDERSTANDING THE CIRCUIT}
+
+how it works
+--------------------------------------------------------------
+* This tiny Micro-Controller provides the user the possibility to connect a vast amount of devices to it, these bindings might be seen as simple sockets, when the user connects for example a device into the Analog input port 45, this device will start sending messages through the port to the Micro-controller, and these messages will be saved on a list, then on the code the developer, will only ask the last value that the Micro-controller Recorded, and save it to a variable, this provides the device, with a big flexibility on modding and connecting different devices to it, imagine we have different mail boxes, each one can only support a single message inside, so our connected device, will be assigned a mailbox and replace the last message with new data, allowing the person who receives all those mails, to get fresh and new input, but the device can not only receive messages from all the plugged in devices, but also, send messages through output channels to different devices, which allows to create different machines that react to input given to our Micro-controller..
+
+CHAPTER 4 {PROGRAMMING}:
+
+Assembly language:
+---------------------------------------------------------------
+* Assembly language it's the lowest level programming language, based on mnemonics, which represent basic instructions for computers, microprocessors, micro-controllers, and other programmable things, this represents a simple version of the machine language symbols, and constants to keep programming, as well as being the direct representation of machine language being the limit of readable language for someone who programs.
+* 
